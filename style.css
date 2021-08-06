@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+
+.Profile {
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    color: #FFFFFF;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+p {
+    font-size: 17px;
+
+}
+
+.Parallal-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: fantasy;
+    display: inline;
+
+}
+
+.links:hover {
+  font-size: 25px;
+  text-decoration: underline;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;   
+}
+
+#contacts {
+    background: firebrick;
+    
+}
+
+#contacts iframe{
+    width: 100%;
+    
+}
+
+.contact_1 h3 {
+    display: inline;
+    
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
